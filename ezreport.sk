@@ -1,0 +1,5 @@
+command /report <offlineplayer> <text>:
+	usage: /report player_name reason
+	trigger:
+		send "&b&l%player% Has Reported &4&l%arg-1% &b&lfor &4&l%arg-2%" to all players where [input has permission "report.gain"]
+		send "&b&lYour Report Against&4&l %arg-1% &b&lHas Been Recived." to player
